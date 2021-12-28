@@ -1,0 +1,2 @@
+{"web":{"client_id":"105209666029-qorthngl3i2r88pbolqr5fd44q69rsid.apps.googleusercontent.com","project_id":"authbase-336515","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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","redirect_uris":["http://localhost:8000/auth/google/callback"],"javascript_origins":["http://localhost:8000"]}}
+
