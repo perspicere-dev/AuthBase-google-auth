@@ -9,7 +9,7 @@ passport.use(new GoogleStrategy({
   }, (accessToken, refreshToken, profile, done) => {
   done(null, profile);
   // console.log(profile)
-  console.log('clientID', process.env.clientID)
+//   console.log('clientID', process.env.clientID)
   }));
   // serialize user when saving to session
   passport.serializeUser((user, serialize) => {

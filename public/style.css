@@ -8,6 +8,14 @@ body {
   text-align: center;
 }
 
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
 h1 {
   font-weight: lighter;
 }
@@ -109,6 +117,24 @@ button {
   padding: 5px 20px 5px 66px;
   border: none;
   text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.logOutBtn {
+  display: block;
+  width: 250px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0.2em auto;
+  padding: 5px 20px;
+  border: none;
+  text-align: center;
   line-height: 34px;
   white-space: nowrap;
   border-radius: 0.2em;
